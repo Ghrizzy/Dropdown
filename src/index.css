@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 200px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Logo {
+  height: 20px;
+}
+
+.nav-links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+
+.nav-right button {
+  color: hsl(0, 0%, 41%);
+  padding: 6px 10px;
+  border: 1px solid hsl(0, 0%, 41%);
+  border-radius: 10px;
+}
+
+.dropdown ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  left: 240px;
+  top: 50px;
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0.2px 0.2px 2px hsl(0, 0%, 41%);
+  list-style: none;
+}
+.dropdown ul li {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  line-height: 30px;
+}
+
+.dropdown ul li a {
+  text-align: left;
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+.Sec-dropdown ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  left: 430px;
+  top: 50px;
+  background-color: white;
+  padding: 15px 15px;
+  border-radius: 10px;
+  box-shadow: 0.2px 0.2px 2px hsl(0, 0%, 41%);
+  list-style: none;
+}
+.Sec-dropdown ul li {
+  display: block;
+  align-items: center;
+  line-height: 30px;
+}
+
+.Sec-dropdown ul li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+
+.main-content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 100px;
+}
+
+.main-content-right {
+  padding-left: 70px;
+}
+
+.main-content h1 {
+  font-size: 50px;
+  margin-top: 130px;
+}
+
+.main-content p {
+  color: hsl(0, 0%, 41%);
+  line-height: 25px;
+}
+
+.main-content button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+.main-content button:hover {
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+}
+
+.content-image {
+  height: 80vh;
+  width: 500px;
+}
+
+.right-div {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  gap: 30px;
+}
+.right-div img {
+  width: 70px;
+}
